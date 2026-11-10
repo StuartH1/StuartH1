@@ -14,8 +14,7 @@ My current focus is Linux, Terraform, Docker, and GitHub Actions.
 | GitHub Actions Workflows (https://github.com/StuartH1/Reusable-Workflow) | Created workflows for pull request labels, Slack notifications, and daily summaries. |
 | Workflow Sandbox (https://github.com/StuartH1/testing-reusable-workflow) | Created a separate repository to test workflow calls and notification data. |
 | Finance Report Generator (https://github.com/StuartH23/finance-reporter) | Developed a React and FastAPI application to process bank statements and show financial reports. |
-| Budget Transactions · Private | Built a Next.js and Supabase prototype to add, edit, and delete transactions. |
-| Equipment Specification Tools · Private | Created Python tools to find PDF files from Excel records and combine them into one document. |
+| **[Terraform Homelab](https://github.com/StuartH23/homelab)** | Defined a VPC, three subnets, DynamoDB, and IAM in LocalStack. Documented deployment, checks, and resource removal. |
 
 ## Next Project
 
