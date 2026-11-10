@@ -1,40 +1,27 @@
-# Hi, I'm Stuart Hernandez
 
-I'm working toward a DevOps engineering role by building and operating
-projects in my home lab. I'm focused on understanding how infrastructure
-works, automating repeatable tasks, and documenting what I learn.
+# Stuart Hernandez
 
-## What I've built
+I'm working toward a DevOps engineering role.
 
-### Terraform + LocalStack infrastructure lab
+I build infrastructure labs, automate tasks, and develop applications.
+My current focus is Linux, Terraform, Docker, and GitHub Actions.
 
-Built an AWS-style infrastructure lab using Terraform and LocalStack
-running in Docker on a separate Ubuntu server.
+## Selected Projects
 
-- Created a VPC and three subnets using calculated CIDR ranges.
-- Defined a DynamoDB table and an IAM user with a read-only policy.
-- Verified the deployed resources using CLI commands.
-- Documented setup, deployment, verification, and teardown.
-- Recorded lessons learned about subnetting and Terraform configuration.
+| Project | What I built |
+|---|---|
+| Terraform Homelab · Private | Defined a VPC, three subnets, DynamoDB, and IAM in LocalStack. Documented deployment, checks, and resource removal. |
+| GitHub Actions Workflows (https://github.com/StuartH1/Reusable-Workflow) | Created workflows for pull request labels, Slack notifications, and daily summaries. |
+| Workflow Sandbox (https://github.com/StuartH1/testing-reusable-workflow) | Created a separate repository to test workflow calls and notification data. |
+| Finance Report Generator (https://github.com/StuartH23/finance-reporter) | Developed a React and FastAPI application to process bank statements and show financial reports. |
+| Budget Transactions · Private | Built a Next.js and Supabase prototype to add, edit, and delete transactions. |
+| Equipment Specification Tools · Private | Created Python tools to find PDF files from Excel records and combine them into one document. |
 
-The repository is currently private. I'm preparing it for public sharing.
+## Next Project
 
-## What I'm building next
+Build a Kubernetes home lab on my existing hardware.
 
-Planning a Kubernetes platform using my spare computer and Raspberry Pis.
-
-The project will grow in stages:
-
-1. Configure machines and install RKE2 with Ansible.
-2. Deploy an application using Helm.
-3. Automate testing and image builds with GitHub Actions.
-4. Manage deployments through Argo CD.
-5. Add monitoring, backups, and recovery exercises.
-
-I also plan to deploy AdGuard Home as a useful service on my home network.
-
-## Tools I'm working with
-
-Terraform · LocalStack · Linux · Docker · Git · GitHub
-
-Next areas of focus: Ansible, Kubernetes, Helm, and GitOps.
+- Configure machines with Ansible and RKE2.
+- Deploy an application with Helm and Argo CD.
+- Add automated checks, monitoring, and backups.
+- Test recovery after a failure.
