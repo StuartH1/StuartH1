@@ -10,7 +10,6 @@ My current focus is Linux, Terraform, Docker, and GitHub Actions.
 
 | Project | What I built |
 |---|---|
-| Terraform Homelab · Private | Defined a VPC, three subnets, DynamoDB, and IAM in LocalStack. Documented deployment, checks, and resource removal. |
 | GitHub Actions Workflows (https://github.com/StuartH1/Reusable-Workflow) | Created workflows for pull request labels, Slack notifications, and daily summaries. |
 | Workflow Sandbox (https://github.com/StuartH1/testing-reusable-workflow) | Created a separate repository to test workflow calls and notification data. |
 | Finance Report Generator (https://github.com/StuartH23/finance-reporter) | Developed a React and FastAPI application to process bank statements and show financial reports. |
